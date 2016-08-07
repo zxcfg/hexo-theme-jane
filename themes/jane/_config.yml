@@ -1,0 +1,27 @@
+
+description: test
+
+enable_links: false
+links:
+  github: https://github.com/learnorg
+  weibo:
+  twitter:
+  facebook:
+  email:
+  googleplus:
+  instagram:
+  pinterest:
+  archive:
+  me: me
+  tag: tags
+  rss: atom.xml
+  search:
+
+page_comment: false
+
+
+duoshuo_shortname:
+disqus_shortname:
+
+google_analytics: 
+favicon: /images/fav.ico

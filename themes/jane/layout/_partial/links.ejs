@@ -1,0 +1,56 @@
+
+<% if (theme.enable_links && theme.links) { %>
+<p class="links">
+	<% if (theme.links.weibo) { %>
+		<a href="<%= theme.links.weibo %>" target="_blank" title="weibo"><i class="iconfont icon-weibo"></i></a>
+	<% } %>
+
+	<% if (theme.links.email) { %>
+		<a href="<%= theme.links.email %>" target="_top" title="email"><i class="iconfont icon-email"></i></a>
+	<% } %>
+
+	<% if (theme.links.github) { %>
+		<a href="<%= theme.links.github %>" target="_blank" title="github"><i class="iconfont icon-github"></i></a>
+	<% } %>
+
+	<% if (theme.links.twitter) { %>
+	<a href="<%= theme.links.twitter %>" target="_blank" title="twitter"><i class="iconfont icon-twitter"></i></a>
+	<% } %>
+
+	<% if (theme.links.facebook) { %>
+	<a href="<%= theme.links.facebook %>" target="_blank" title="facebook"><i class="iconfont icon-facebook"></i></a>
+	<% } %>
+
+	<% if (theme.links.googleplus) { %>
+	<a href="<%= theme.links.googleplus %>" target="_blank" title="google+"><i class="iconfont icon-google"></i></a>
+	<% } %>
+
+	<% if (theme.links.instagram) { %>
+	<a href="<%= theme.links.instagram %>" target="_blank" title="instagram"><i class="iconfont icon-socialinstagram"></i></a>
+	<% } %>
+
+	<% if (theme.links.pinterest) { %>
+	<a href="<%= theme.links.pinterest %>" target="_blank" title="pinterest"><i class="iconfont icon-pinterest"></i></a>
+	<% } %>
+
+	<% if (theme.links.me) { %>
+	<a href="<%= config.root + theme.links.me %>" target="_blank" title="about me"><i class="iconfont icon-me"></i></a>
+	<% } %>
+
+	<% if (theme.links.rss) { %>
+	<a href="<%= config.root + theme.links.rss %>" target="_blank" title="rss"><i class="iconfont icon-rss"></i></a>
+	<% } %>
+
+	<% if (theme.links.archive) { %>
+	<a href="<%= config.root + theme.links.archive %>" target="_blank" title="archive"><i class="iconfont icon-cc-archive"></i></a>
+	<% } %>
+
+	<% if (theme.links.search) { %>
+	<a href="<%= theme.links.search %>" target="_blank" title="search"><i class="iconfont icon-search"></i></a>
+	<% } %>
+
+	<% if (theme.links.tag) { %>
+	<a href="<%= config.root + theme.links.tag %>" target="_blank" title="tag"><i class="iconfont icon-tag"></i></a>
+	<% } %>
+</p>
+<% } %>

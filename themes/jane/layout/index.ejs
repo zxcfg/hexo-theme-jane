@@ -1,0 +1,14 @@
+<div class="main">
+  <ul class="post-list">
+  <% page.posts.each(function(post){ %>
+    <%
+      var link = post.link || post.path;
+    %>
+    <li>
+      <h3><%= date(post.date, config.date_format) %></h3> 
+      <h2><a href="<%- config.root %><%- link%>"><%= post.title%></a></h2>
+    </li>
+  <% }) %>
+  </ul>
+</div>
+
