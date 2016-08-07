@@ -39,14 +39,17 @@ async function main() {
 		const repo = await Git.open(public_path, { init: true });
 		await repo.setRemote(conf.name, conf.url);
 		// Fetch the remote repository if it exists
+		const simpleGit = SimpleGit(public_path);
+
 		if ((await repo.hasRef(conf.url, conf.branch))) {
 			await repo.fetch(conf.name);
 			await repo.reset(`${conf.name}/${conf.branch}`, { hard: true });
 			await repo.clean({ force: true });
+			await simpleGit.checkout(conf.branch);
+		} else {
+			await simpleGit.checkout(['-b', conf.branch]);
 		}
 
-		const simpleGit = SimpleGit(public_path);
-  	await simpleGit.checkout(conf.branch);
 
   	await run(`hexo generate -f`);
 
