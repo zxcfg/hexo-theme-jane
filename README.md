@@ -1,9 +1,11 @@
 
-## Usage
+## Run demo
 
 ```
 npm install -g hexo
 npm install
+hexo generate -f
+hexo server -o
 ```
 
 ## create new post
