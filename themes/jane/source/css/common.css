@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", "Helvetica Neue", "Hiragino Sans GB", "LiHei Pro", Arial, serif;
+  font-family: "Roboto", "Hiragino Sans GB", "LiHei Pro", Arial, serif;
   text-rendering: optimizelegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -18,8 +18,8 @@ a {
   transition: color 0.2s ease, border-color 0.2s ease;
 }
 .header {
-  letter-spacing: 3px;
-  margin: 50px auto 15px;
+  letter-spacing: 2px;
+  margin: 48px auto 16px;
   text-align: center;
 }
 .header a {
@@ -28,7 +28,7 @@ a {
 }
 .links {
   text-align: center;
-  font-family: "Roboto", "Helvetica Neue", "Hiragino Sans GB", "LiHei Pro", Arial, serif;
+  font-family: "Roboto", "Hiragino Sans GB", "LiHei Pro", Arial, serif;
   color: #999;
   font-size: 24px;
   margin: 0;
@@ -39,8 +39,8 @@ a {
   margin: 0 3px;
 }
 .links img {
-  width: 15px;
-  height: 15px;
+  width: 14px;
+  height: 14px;
 }
 .header,
 h1,
@@ -49,14 +49,14 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", "Helvetica Neue", "Hiragino Sans GB", "LiHei Pro", Arial, sans-serif;
+  font-family: "Montserrat", "Hiragino Sans GB", "LiHei Pro", Arial, sans-serif;
   font-weight: 400;
   color: #444;
 }
 .main {
   max-width: 600px;
   margin: 50px auto;
-  padding: 0 30px 50px;
+  padding: 0 32px 32px;
   position: relative;
 }
 @media screen and (max-width: 420px) {
