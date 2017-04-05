@@ -170,6 +170,7 @@ pre .xml .cdata {
 }
 .post .content .highlight {
   overflow-x: auto;
+  overflow-y: hidden;
 }
 .post .content .highlight table,
 .post .content .highlight tr,
