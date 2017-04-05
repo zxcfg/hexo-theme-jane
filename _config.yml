@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://learnorg.github.io
+url: https://xxx.github.io
 root: /blog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -79,5 +79,5 @@ theme: jane
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@zxzt:learnorg/blog.git
+  repo: git@github.com:xxx/blog.git
   branch: gh-pages
